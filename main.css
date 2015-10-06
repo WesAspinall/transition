@@ -1,11 +1,13 @@
 .container{
   width: 500px;
-  height:400px;
+  height:285px;
   border: 1px solid black;
   overflow: hidden;
   font-family: 'Mr Dafoe', cursive;
   background-image: url(https://waspnx.files.wordpress.com/2015/10/2013-01-18-21-13-122.jpg);
   background-size: 70%;
+  border-top: none;
+  box-shadow: 1px 5px 10px red;
 }
 
 a{
@@ -30,8 +32,8 @@ h1:hover{
 height: 39px;
 overflow: hidden;
 transition: height 1s, ;
-
 }
+
 
 .expand{
   height: 200px;
