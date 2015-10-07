@@ -82,8 +82,8 @@ footer a{
   position: absolute;
   text-shadow: 1px 1px 5px #E2DC6D;
   z-index: 2;
-  right:40%;
-  left: 40%;
+  right:100px;
+  left: 100px;
 }
 
 footer a:hover{
