@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-  width: 500px;
+  width: 450px;
   height:271px;
   border: 1px solid black;
   overflow: hidden;
@@ -35,6 +35,7 @@ h1{
  width: 100%;
  border-top: 1px solid black;
  border-bottom: 1px solid black;
+ border-right: 1px solid black;
  margin: 0;
  padding-left: 10px;
 }
@@ -50,13 +51,18 @@ h1:hover{
 
 p{
 font-family: 'Oswald', sans-serif;
+padding-left: 10px;
+max-height: 100%;
+overflow: scroll;
 }
 
 .sectionOne, .sectionTwo, .sectionThree{
 height: 35px;
 overflow: hidden;
 transition: height 1s, ;
+max-width: 100%;
 }
+
 
 footer{
  text-decoration: none;
@@ -74,5 +80,5 @@ footer{
 
 .expand{
   height: 200px;
-  overflow: hidden;
-}
+  max-width: 100%;
+ }
