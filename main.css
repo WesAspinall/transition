@@ -52,7 +52,7 @@ h1:hover{
 p{
 font-family: 'Oswald', sans-serif;
 padding-left: 10px;
-max-height: 100%;
+max-height: 80%;
 overflow: scroll;
 }
 
