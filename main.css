@@ -1,13 +1,13 @@
 .container{
   width: 500px;
-  height:285px;
+  height:296px;
   border: 1px solid black;
   overflow: hidden;
   font-family: 'Mr Dafoe', cursive;
   background-image: url(https://waspnx.files.wordpress.com/2015/10/2013-01-18-21-13-122.jpg);
   background-size: 70%;
   border-top: none;
-  box-shadow: 1px 5px 10px red;
+  box-shadow: 1px 5px 10px black;
 }
 
 a{
@@ -21,17 +21,23 @@ h1{
  border-top: 1px solid black;
  border-bottom: 1px solid black;
  margin: 0;
+ padding-left: 10px;
 }
 
 
 h1:hover{
-  background-color: #CFD6DB;
+  background-image:url(https://waspnx.files.wordpress.com/2015/10/img_5950-copy.jpg);
+  background-size: 35%;
+  background-position: right;
+  background-color: white;
+  background-repeat: no-repeat;
 }
 
 .sectionOne, .sectionTwo, .sectionThree{
 height: 39px;
 overflow: hidden;
 transition: height 1s, ;
+padding-bottom: 6px;
 }
 
 
