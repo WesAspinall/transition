@@ -1,0 +1,1 @@
+creating an accordion effect using jQuery and the CSS transition property
