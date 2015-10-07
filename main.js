@@ -1,8 +1,8 @@
 function change(event){
 
-  var parent = $(event.currentTarget).parent();///this targets h1
+  var parent = $(event.currentTarget).parent();///this targets the sectionOne,Two,Three
 
-      parent.addClass('expand');///this gives h1 the class of .expand
+      parent.addClass('expand');///this gives the section the class of .expand
 
       parent.siblings().removeClass('expand');//for each  of the siblings, the expand class is removed 
                                               //and we are left with the base state (32px height)

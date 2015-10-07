@@ -57,6 +57,12 @@ max-height: 80%;
 overflow: scroll;
 }
 
+.sectionTwo p{
+  font-family: 'Bangers', sans-serif;
+  font-size: 3em;
+  margin-top: 20px;
+}
+
 .sectionOne, .sectionTwo, .sectionThree{
 height: 35px;
 overflow: hidden;
@@ -64,6 +70,18 @@ transition: height 1s, ;
 max-width: 100%;
 }
 
+
+img{
+  width: 200px;
+  padding-left: 100px;
+  float: top;
+}
+
+.gif{
+  float: right;
+  padding-left:0;
+  border: 3px solid black;
+}
 
 footer{
  text-decoration: none;
