@@ -1,18 +1,33 @@
+body{
+
+  background-image:url(https://waspnx.files.wordpress.com/2015/09/2013-01-18-21-13-121.jpg);
+  background-size: 100%;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+}
+
 .container{
   width: 500px;
-  height:296px;
+  height:271px;
   border: 1px solid black;
   overflow: hidden;
-  font-family: 'Mr Dafoe', cursive;
+  font-family: 'Bangers', cursive;
   background-image: url(https://waspnx.files.wordpress.com/2015/10/2013-01-18-21-13-122.jpg);
   background-size: 70%;
   border-top: none;
   box-shadow: 1px 5px 10px black;
+  margin: 200px auto;
 }
 
 a{
   text-decoration: none;
   color: black;
+  text-shadow: 1px 1px 5px #CFD6DB;
+}
+
+a:hover{
   text-shadow: 1px 1px 5px red;
 }
 
@@ -33,11 +48,27 @@ h1:hover{
   background-repeat: no-repeat;
 }
 
+p{
+font-family: 'Oswald', sans-serif;
+}
+
 .sectionOne, .sectionTwo, .sectionThree{
-height: 39px;
+height: 35px;
 overflow: hidden;
 transition: height 1s, ;
-padding-bottom: 6px;
+}
+
+footer{
+ text-decoration: none;
+ color:#CBB154;
+ font-family: 'Bangers', sans-serif;
+ height: 100px;
+ background-color: black;
+ width: 100%;
+ text-align: center;
+ vertical-align: middle;
+ font-size: 6em;
+ border-top: 5px solid #CFD6DB;
 }
 
 
